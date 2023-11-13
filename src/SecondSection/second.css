@@ -1,0 +1,56 @@
+.border{
+    width:20%;
+    height: auto;
+    background-color:red;
+    color: aliceblue;
+    opacity: 0.5;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    z-index: -1;
+    position: static;
+    margin: 1vw;
+}
+.img{
+    
+    width: 100%;
+    height: auto;
+    position: static;
+    z-index: 0;
+}
+
+.firsticon{
+    box-sizing: border-box;
+    border-color: antiquewhite;
+    border: 2vw;
+}
+.navigator2{
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    text-align: center;
+}
+.gender{
+    display: flex;
+    margin:  0vw 30vw;
+    justify-content: center;
+}
+.navi{
+    display: inline;
+
+}
+.justify{
+    display: flex;
+    justify-content: space-between;
+    margin:0vw 3vw;
+}
+.last{
+    background-color: black;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img2{
+    display: flex;
+}
