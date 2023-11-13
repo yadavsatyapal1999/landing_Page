@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#box{
+    box-sizing: border-box;
+    border: 1vw solid white;
+    margin: 2vw;
+    border-radius: 3vw;
+    width: 25vw;
+    height: 25vw;
+   text-align: center;
+}

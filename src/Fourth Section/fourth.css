@@ -1,0 +1,9 @@
+.imgsection{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#fourth{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
