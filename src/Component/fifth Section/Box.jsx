@@ -4,10 +4,8 @@ function Box({ icon, name }) {
 
 
     return <div id="box">
-        <div id={icon}>
-            ICON
-        </div>
-        <div>{name}</div>
+        <i className={icon}></i>
+        <div className="namebox">{name}</div>
     </div>
 }
 export default Box

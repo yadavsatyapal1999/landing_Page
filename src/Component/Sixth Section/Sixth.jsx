@@ -1,5 +1,5 @@
 import Procedures from "./Procedures";
-
+import "./sixth.css"
 
 function Sixth() {
 

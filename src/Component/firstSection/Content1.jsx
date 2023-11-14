@@ -1,4 +1,4 @@
-
+import machine from "../images/machine.png"
 
 
 function Content1() {
@@ -19,22 +19,27 @@ function Content1() {
                 No More Monthly Hair Removal Fuss
             </div>
         </div>
+        <div className="inlinecontent">
         <div className="content2">
-            <div className="firstcontent2">
+            <div className="firstcontent2 sameline">
                 <div>tag</div>
                 <div>FOREVER READY</div>
                 <div>with zero prep</div>
             </div>
-            <div className="secondcontent2">
+            <div className="secondcontent2 sameline">
                 <div>tag</div>
                 <div>SMOOTH SKIN</div>
                 <div>No more in grown hair,bumps,stuble</div>
             </div>
-            <div className="thirdcontent2">
+            <div className="thirdcontent2 sameline">
                 <div>tag</div>
                 <div>PAINLESS</div>
                 <div>Ice Cool Tech for a Pain Free Experience</div>
             </div>
+           </div>
+           <div className="image">
+            <img src={machine} alt="unable to find image" />
+        </div>
         </div>
     </div>
 }

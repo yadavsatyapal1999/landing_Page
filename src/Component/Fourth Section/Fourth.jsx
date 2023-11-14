@@ -1,11 +1,11 @@
 import myImage from "../images/machine.png"
 import "./fourth.css"
 
-function Fourth(){
+function Fourth() {
 
 
 
-    return <div id="fourth">
+    return  <div id="fourth">
         <h1>WE HAVE DEVELOPED A UNIQUE LASER FOR HAIR RENOVAL</h1>
         <div className="imgsection">
             <div className="line1"></div>
@@ -16,4 +16,4 @@ function Fourth(){
         </div>
     </div>
 }
-export  default Fourth
+export default Fourth

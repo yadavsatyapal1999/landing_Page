@@ -7,10 +7,10 @@ function Services() {
         <div className="service">SERVICES</div>
         <div className="gender">
             <div className="men">Men</div>
-            <div className="women">Women</div>
+            <div className="men">Women</div>
         </div>
         <div className="navigator2">
-            <div className="navi">Popular</div>
+            <div className="navi"  >Popular</div>
             <div className="navi">Hands</div>
             <div className="navi">Bikni</div>
             <div className="navi">Legs</div>
