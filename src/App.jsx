@@ -1,6 +1,5 @@
 import './App.css'
-
-import Third from './Third Section/Third'
+import Fifth from './fifth Section/Fifth'
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <div>
-<Third/>
+<Fifth/>
     </div>
   )
 }
