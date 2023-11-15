@@ -1,0 +1,19 @@
+.seventh{
+    display: flex;
+    margin: 1vw 0vw;
+    text-align: center;
+}
+#seventhimg{
+    width: 40vw;
+    height: auto;
+    margin: auto;
+}
+#seventhsection{
+width: 40vw;
+height: auto;
+display: grid;
+}
+#section7th{
+    width: 10vw;
+    margin: auto;
+}

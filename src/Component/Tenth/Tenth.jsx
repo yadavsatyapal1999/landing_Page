@@ -1,28 +1,37 @@
-
+import "./tenth.css"
+import { WiThermometer } from 'react-icons/wi';
+import image from "../images/gun2.jpg"
+import { AiOutlineThunderbolt } from 'react-icons/ai';
 
 
 function Tenth() {
 
+    const thermo ={
+        fontSize:"3vw",
+        margin:"0"
+    }
 
-    return <div>
-        <h1>OF Application</h1>
-        <section>
+    return <div id="tenth">
+        <h1 id="tenthh1">OF Application</h1>
+        <div className="blocks">
             <div className="firstblock">
-                <p>&#94;</p>
-                <p>66</p>
-                <p>&#94;</p>
+                <span>&#94;</span><br/>
+                <span>66</span> <br/>
+                <span>&#118;</span>
             </div>
             <div className="secondblock">
-                <div>Thermometer Logo</div>
+                <div style={{display:"inline-block"}}>{WiThermometer && <WiThermometer className="icon" />}</div>
                 <div>-66</div>
             </div>
             <div className="thirdblock">
-                <img className="thirdblockimg" src="" alt="to be uploaded" />
+                <img className="thirdblockimg" src={image} alt="to be uploaded" />
             </div>
-        </section>
+        </div>
         <section>
             <div>
-                <img src="" alt="logo" />
+                <div>
+                   {AiOutlineThunderbolt && <AiOutlineThunderbolt className="icon"/>} 
+                </div>
                 <p>ENERGY ADJUSTMENT</p>
             </div>
             <div>

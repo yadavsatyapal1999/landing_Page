@@ -1,10 +1,10 @@
 
 
-function Box({ icon, name }) {
+function Box({ icon:IconComponent, name }) {
 
 
     return <div id="box">
-        <i className={icon}></i>
+       <div>{IconComponent && <IconComponent size={80}/>}</div>
         <div className="namebox">{name}</div>
     </div>
 }

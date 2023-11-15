@@ -8,11 +8,12 @@
     border-radius: 3vw;
     width: 25vw;
     height: 25vw;
+    padding-top: 5vw;
    text-align: center;
    background: linear-gradient(to bottom, rgb(151, 29, 29), #130d0c);
 }
 .namebox{
-    font-size: 2vw;
+    font-size: 4vw;
     border: none;
 }
 #fifth{
