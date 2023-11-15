@@ -1,0 +1,22 @@
+#third{
+    text-align: center;
+}
+.heading{
+    font-size: 4vw;
+}
+.subheading{
+    font-size: 2vw;
+    flex-wrap: wrap;
+}
+.fleximg{
+    display:  flex;
+    
+}
+.thirdimg{
+    width: 45vw;
+    border: 2px solid wheat;
+    height: auto;
+}
+.thirdimg:first-child{
+    margin-right: 8vw;
+}
