@@ -1,0 +1,58 @@
+.eleventh{
+    background-color: rgb(40 38 38 / 94%);
+    padding: 3vw;
+}
+#head{
+    text-align: center;
+    font-size: 3vw;
+}
+#secondhead{
+    text-align: center;
+    font-size: 2vw;
+}
+#form{
+    text-align: center;
+    display: flex;
+}
+form{
+    margin-left: 20%;
+    margin-right: 5%;
+}
+input{
+    width: 40vw;
+    height: 3vw;
+    background-color: rgba(29, 28, 28, 0.87);
+    color: rgb(252, 252, 252);
+    margin: 1vw;
+}
+
+input:nth-child(1),input:nth-child(2){
+width: 19vw;
+margin: 0.1vw 0.5vw;
+}
+button{
+    text-align: center;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+    color: azure;
+    font-family: cursive;
+    background-color: rgba(240, 11, 11, 0.829);
+}
+
+.hollow-text11 {
+    bottom: 7vw;
+    position: relative;
+    width: 50vw;
+    z-index: 500;
+    font-size: 6vw;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke: 3px rgba(212, 16, 16, 0.726);
+    -webkit-text-fill-color: none;
+    /* margin-top: 4vw; */
+    height: 4vw;
+    left: 25vw;
+}

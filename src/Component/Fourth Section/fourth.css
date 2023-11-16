@@ -7,3 +7,32 @@
     place-items: center;
     text-align: center;
 }
+.hollow-text4 {
+    bottom: 8vw;
+    position: relative;
+    z-index: 500;
+    font-size: 3vw;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke: 3px rgba(212, 16, 16, 0.726);
+    -webkit-text-fill-color: none;
+    width: 50vw;
+    /* margin-top: 4vw; */
+    height: 4vw;
+    /* left: 25vw;*/
+}
+
+#head{
+    position: relative;
+    z-index: 1000;
+    font-size: 4vw;
+}
+.line1{
+    width: 30vw;
+    height: auto;
+    margin: auto;
+}
+.line1 img{
+    border-radius: 3vw;
+}

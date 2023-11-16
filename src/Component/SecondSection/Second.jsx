@@ -19,7 +19,7 @@ function Second(){
         <Image2 path={beauty3}/>
         <Image2 path={beauty5}/>
         </div>
-        <MobileIcon/>
+       { /*<MobileIcon/> */}
         </div>
         <Services/>
     </div>

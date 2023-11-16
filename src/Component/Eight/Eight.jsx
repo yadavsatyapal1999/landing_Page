@@ -5,6 +5,7 @@ function Eight() {
 
     return <div id="eigth">
         <h1 id="large">LARGE SPOT</h1>
+        <div className="hollow-text8">EXCEPTIONALLY</div>
         <div id="quick-parent" >
             <div className="quick text laser-light">
                  QUICK + COMFORT

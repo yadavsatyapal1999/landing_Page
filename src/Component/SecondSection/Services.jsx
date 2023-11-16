@@ -1,13 +1,21 @@
 import ServicePic from "./ServicePic"
 import "./second.css"
-
+import { FaMale, FaFemale } from 'react-icons/fa';
 function Services() {
 
     return <div className=" services">
         <div className="service">SERVICES</div>
         <div className="gender">
-            <div className="men">Men</div>
-            <div className="men">Women</div>
+            <div className="men">
+                <span>
+                    {FaMale && <FaMale className="icon2"/>}
+                </span>
+                Men</div>
+            <div className="men">
+                <span>
+                    {FaFemale && <FaFemale className="icon2"/>}
+                </span>
+                Women</div>
         </div>
         <div className="navigator2">
             <div className="navi"  >Popular</div>

@@ -1,7 +1,9 @@
 #ninth1{
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
     margin-bottom: 5vw;
+    position: relative;
+    z-index: 1000;
 }
 #nineimg{
     width: 95%;
@@ -21,4 +23,19 @@
     left: 28%;
     bottom: 43vw;
     height: auto;
+}
+.hollow-text9 {
+    bottom: 10.5vw;
+    position: relative;
+    z-index: 500;
+    font-size: 6vw;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke: 3px rgba(212, 16, 16, 0.726);
+    -webkit-text-fill-color: none;
+    /* margin-top: 4vw; */
+    height: 4vw;
+    width: 50vw;
+    left: 25vw;
 }
