@@ -6,7 +6,10 @@ import { BsFillLightningFill } from 'react-icons/bs';
 function Fifth() {
     let arr = ["Conevient Booking", "Skin Care", "Art Laser Technology", "Personalized Care", "Pocket Friendly", "Life Time"]
     return <div id="fifth">
-        <h1>SNYLLO ESTHETICA</h1>
+        <h1 id="heads">SNYLLO ESTHETICA</h1>
+        <div className="hollow-text5">
+            WHY CHOOSE US
+        </div>
         <div className="box">
             <Box icon={FaWallet} name={arr[0]} />
             <Box icon={FaRegSmile} name={arr[1]} />

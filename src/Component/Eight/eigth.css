@@ -1,6 +1,8 @@
 #large{
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
+    position: relative;
+    z-index: 1000;
 }
 #quick-parent{
     display: flex;
@@ -42,3 +44,17 @@
     font-size: 2vw;
     background-color: rgb(186, 190, 194,0.3);
 }
+.hollow-text8 {
+    bottom: 8vw;
+    position: relative;
+    z-index: 500;
+    width: 50vw;
+    font-size: 6vw;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke: 3px rgba(212, 16, 16, 0.726);
+    -webkit-text-fill-color: none;
+    /* margin-top: 4vw; */
+    height: 4vw;
+    left: 25vw;}

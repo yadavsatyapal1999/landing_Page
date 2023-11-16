@@ -3,6 +3,23 @@
 }
 .heading{
     font-size: 4vw;
+    position: relative;
+    z-index: 1000;
+}
+.hollow-text3 {
+    bottom: 9vw;
+    position: relative;
+    z-index: 500;
+    font-size: 6vw;
+    font-weight: bold;
+    color: transparent;
+    width: 50vw;
+    background-clip: text;
+    -webkit-text-stroke: 3px rgba(212, 16, 16, 0.726);
+    -webkit-text-fill-color: none;
+    /* margin-top: 2vw; */
+    height: 2vw;
+    left: 25vw;
 }
 .subheading{
     font-size: 2vw;
@@ -13,10 +30,23 @@
     
 }
 .thirdimg{
-    width: 45vw;
-    border: 2px solid wheat;
-    height: auto;
+    width: 40vw;
+    border: none;
+    height: 30vw;
+   justify-content: space-between;
+}
+img{
+  width: 80%;
+  height: 30vw;  
 }
 .thirdimg:first-child{
     margin-right: 8vw;
 }
+.triangle{
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 10vw solid white;
+    border-top: 0vw;
+}
+
+  

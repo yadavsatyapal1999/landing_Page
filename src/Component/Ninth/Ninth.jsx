@@ -5,7 +5,9 @@ function Ninth() {
 
     return <div id="ninth">
         <h1 id="ninth1"> TWICE THE FILTER</h1>
-
+<div className="hollow-text9">
+    DOUBLE FILTER
+</div>
         <div id="nineimg">
             <div >
                 <img style={{

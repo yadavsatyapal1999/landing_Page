@@ -1,25 +1,42 @@
 #laser{
     text-align: center;
+    font-size: 4vw;
+    position: relative;
+    z-index: 1000;
 }
 .back-dark{
     background-color: rgba(12, 11, 11, 0.466);
+    text-align: center;
+}
+.sixtext1{
+    color: red;
+    font-size: 3vw;
+}
+.sixtext2{
+    font-size: 2vw;
 }
 #section2{
     text-align: center;
     display: flex;
+    height: 35vw;
+    align-items: center;
+    justify-content: center;
 }
 #firstcolumn{
     width: 30vw;
-    height: 25vw;
+   
     font-size: 2vw;
 }
 #secondcolumn{
     width: 30vw;
-    height: 25vw;
+  
+}
+.secondcolumnimg{
+    border-radius: 2vw;
+   
 }
 #thirdcolumn{
     width: 30vw;
-    height: 25vw;
     font-size: 2vw;
 }
 #procedure{
@@ -50,5 +67,19 @@ li{
     border: none;
     border-radius: 2vw;
 }
-
+.hollow-text6 {
+    bottom: 6vw;
+    position: relative;
+    z-index: 500;
+    font-size: 6vw;
+    width: 50vw;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke: 3px rgba(212, 16, 16, 0.726);
+    -webkit-text-fill-color: none;
+    /* margin-top: 4vw; */
+    height: 4vw;
+    left: 29vw;
+}
 

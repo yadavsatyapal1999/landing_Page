@@ -20,3 +20,23 @@
     text-align: center;
     align-items: center;
 }
+.hollow-text5 {
+    bottom: 8.5vw;
+    position: relative;
+    z-index: 500;
+    font-size: 6vw;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    width: 50vw;
+    -webkit-text-stroke: 3px rgba(212, 16, 16, 0.726);
+    -webkit-text-fill-color: none;
+    /* margin-top: 4vw; */
+    height: 4vw;
+    left: 24vw;
+}
+#heads{
+    position: relative;
+    z-index: 1000;
+    font-size: 4vw;
+}

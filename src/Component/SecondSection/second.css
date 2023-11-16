@@ -48,6 +48,10 @@
     height: 6vw;
     font-size: 4vw;
     margin: 0vw 6vw;
+    display: flex;
+}
+.icon2{
+    font: 4vw;
 }
 .navi{
     display: inline;
@@ -96,8 +100,7 @@
     height: 25vw;
 }
 .servicepic{
-    align-items: center;
-    background-color: rgba(236, 227, 214, 0.74);
+    background-color: rgb(212, 21, 21);
     opacity: 0.5;
     margin: 2vw;
     border-radius: 1vw;
@@ -119,7 +122,12 @@
     background-color: black;
     color: white;
     border-radius: 1vw;
-    font-size: 20px;
+    font-size: 2vw;
+}
+button{
+    text-align: center;
+    width: 6vw;
+    height: 3vw;
 }
 .justify:last-child:hover{
     cursor: pointer;

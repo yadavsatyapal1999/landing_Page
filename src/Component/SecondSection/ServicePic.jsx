@@ -1,4 +1,4 @@
-import image from "../images/machine.png"
+import girl from "../images/girlanime.jpg"
 import "./second.css"
 
 function ServicePic() {
@@ -6,7 +6,7 @@ function ServicePic() {
 
     return <div className="servicepic">
         <div id="img">
-            <img src={image} alt="unable to load" />
+            <img src={girl} alt="unable to load" />
         </div>
         <div className="servicered">
             <div className="justify"><span style={{ fontSize: "2vw" }}>Breast</span> <span>Timer logo</span> </div>
